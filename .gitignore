@@ -1,0 +1,18 @@
+# Ignore everything, Цесько
+*
+
+# But not some files
+!.gitignore
+!build.gradle
+!gradlew
+!gradlew.bat
+!settings.gradle
+!*.java
+!*.md
+!src/main/resources/*
+!gradle/wrapper/*
+!*.sql
+
+# Even if they are in subdirectories
+!*/
+.idea
